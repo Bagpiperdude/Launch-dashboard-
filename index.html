@@ -1,34 +1,26 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Launch Dashboard</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <h1>🚀 LAUNCH CONTROL</h1>
-  <p id="status">Status: IDLE</p>
+div class="panel" id="status-panel">
+  <h2>Status</h2>
+  <p id="status">IDLE</p>
+</div>
+
+<div class="panel" id="countdown-panel">
+  <h2>Countdown</h2>
   <p id="countdown"></p>
+</div>
+
+<div class="panel" id="fuel-panel">
+  <h2>Fuel</h2>
+  <div id="fuel-container">
+    <div id="fuel-bar"></div>
+  </div>
+</div>
+
+<div class="panel" id="buttons-panel">
   <button onclick="prepare()">Prepare</button>
   <button onclick="launch()">Launch</button>
-  <button onclick="alert('⚠️ WARNING!')">Trigger Warning</button>
-  <script src="script.js"></script>
-</body>
-</html>
-p>Fuel Level:</p>
-<div id="fuel-container" style="width: 200px; height: 20px; border: 2px solid lime; margin: auto;">
-  <div id="fuel-bar" style="width: 100%; height: 100%; background: lime;"></div>
+  <button onclick="triggerWarning()">Trigger Warning</button>
 </div>
-p id="countdown"></p>
-<div id="warning" style="display:none; color:red; font-weight:bold; font-size: 20px; margin-top: 10px;">
-  ⚠️ WARNING: Engines Hot!
-</div>
-<button onclick="prepare()">Prepare</button>
-<button onclick="launch()">Launch</button>
-<button onclick="triggerWarning()">Trigger Warning</button>
 
-<div id="warning" style="display:none; color:red; font-weight:bold; font-size: 20px; margin-top: 10px;">
-  ⚠️ WARNING: Engines Hot!
+<div class="panel" id="warning-panel">
+  <p id="warning">⚠️ WARNING: Engines Hot!</p>
 </div>
-button onclick="triggerWarning()">Trigger Warning</button>
-div class="panel">
-  <h1>🚀 LAUNCH CONTROL</h1
