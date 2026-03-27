@@ -1,0 +1,13 @@
+body {
+  background: black;
+  color: lime;
+  font-family: monospace;
+  text-align: center;
+}
+button {
+  padding: 15px;
+  margin: 10px;
+  background: black;
+  color: lime;
+  border: 2px solid lime;
+  font-size: 16px;
