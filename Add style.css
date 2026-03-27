@@ -11,3 +11,30 @@ button {
   color: lime;
   border: 2px solid lime;
   font-size: 16px;
+body {
+  background: #0a0a0a; /* dark space background */
+  color: #00ff00;      /* bright green text */
+  font-family: 'Courier New', monospace;
+  text-align: center;
+  background-image: radial-gradient(circle at center, #0a0a0a 0%, #111 100%);
+}
+
+h1 {
+  color: #ff6600; /* bright orange for title */
+}
+
+button {
+  padding: 15px;
+  margin: 10px;
+  background: #111;
+  color: #00ff00;
+  border: 2px solid #00ff00;
+  font-size: 16px;
+  border-radius: 8px;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #00ff00;
+  color: #111;
+  cursor: pointer;
