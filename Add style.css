@@ -38,3 +38,7 @@ button:hover {
   background: #00ff00;
   color: #111;
   cursor: pointer;
+countdown {
+  font-size: 30px;
+  color: #ff3300; /* red countdown numbers */
+  margin: 10px;
