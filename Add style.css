@@ -50,3 +50,6 @@ countdown {
   font-size: 18px;
   display: none;
 }
+body {
+  background: url('https://i.imgur.com/3U1aN2k.jpg') no-repeat center center fixed;
+  background-size: cover;
