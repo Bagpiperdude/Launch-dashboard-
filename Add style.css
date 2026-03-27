@@ -42,3 +42,11 @@ countdown {
   font-size: 30px;
   color: #ff3300; /* red countdown numbers */
   margin: 10px;
+
+/* Warning panel */
+#warning {
+  color: red;
+  font-weight: bold;
+  font-size: 18px;
+  display: none;
+}
