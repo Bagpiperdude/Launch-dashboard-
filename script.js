@@ -29,3 +29,5 @@ function launch() {
       document.getElementById("fuel-bar").style.background = "#ff0000"; // red when finished
     }
   }, 1000);
+function triggerWarning() {
+  document.getElementById("warning").style.display = "block";
