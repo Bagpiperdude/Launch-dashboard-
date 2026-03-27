@@ -53,3 +53,11 @@ countdown {
 body {
   background: url('https://i.imgur.com/3U1aN2k.jpg') no-repeat center center fixed;
   background-size: cover;
+#warning {
+  animation: flash 1s infinite;
+}
+
+@keyframes flash {
+  0%, 50%, 100% { opacity: 1; }
+  25%, 75% { opacity: 0; }
+}
